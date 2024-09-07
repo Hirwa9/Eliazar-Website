@@ -1,0 +1,30 @@
+@import "../all.css?v=1.0004";
+/* Index */
+
+.project-elem .abs-images {
+    min-height: 315px;
+    animation: zoomInBack 1s 1;
+}
+.project-elem .abs-images > img:nth-child(2) {
+    width: fit-content;
+    max-width: 35%;
+    top: 5%;
+    right: 5%;
+    animation: flyInBottom 2s 1;
+    transition: var(--trans);
+    z-index: 1;
+}
+.project-elem .abs-images > img:nth-child(2):hover {
+    box-shadow: 0 0 .5rem .25rem var(--black3);
+}
+
+/* #circularGalleryCompositions > .circular-gallery-item[style="--_child: 0;"],
+#circularGalleryCompositions > .circular-gallery-item[style="--_child: 5;"] {
+    transition: none;
+} */
+#circularGalleryCompositions > .circular-gallery-item > img {
+    height: calc(100% - 2rem);
+}
+#circularGalleryCompositions > .circular-gallery-item > div {
+    height: 2rem; font-size: 60%;
+}

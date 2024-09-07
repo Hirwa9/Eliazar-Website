@@ -1,0 +1,11 @@
+@import "../all.css?v=1.0004";
+/* Index */
+
+#contactForm input {
+    height: 3rem;
+    background-color: var(--white1);
+}
+#contactForm textarea {
+    outline: 4px solid var(--white3);
+    outline-offset: 3px;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Eliazar</title>
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS">
+
+        <!-- Helpfull meta tags -->
+        <meta name="title" content="Eliazar Ndayisabye's personal blog">
+        <meta name="description" content="This is a website blog of Eliazar Ndayisabye that represents his personality and showcases his compositions, including music and other creative works">
+        <meta name="keywords" content="Eliazar Ndayisabye, personal blog, music compositions, creative works, Eliazar's compositions, Eliazar's blog">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="30 days">
+        <meta name="author" content="Hirwa Cyuzuzo Willy">
+        
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Eliazar Ndayisabye's personal blog">
+        <meta property="og:title" content="Eliazar Ndayisabye's personal blog">
+        <meta property="og:description" content="This is a website blog of Eliazar Ndayisabye that represents his personality and showcases his compositions, including music and other creative works.">
+        <meta property="og:image" content="https://eliazarndayisabye.c1.is/assets/images/eliazar_logo-tranparent.png">
+        <meta property="og:url" content="https://eliazarndayisabye.c1.is">
+        
+        <!-- BS, FA & jQ -->
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- custom styles-->
+        <link rel="icon" type="image/x-icon" href="assets/images/eliazar.ico">
+        <link rel="stylesheet" type="text/css" href="styles/index.css?v=1.0004">
+        
+        <!-- offline -->
+    
+        <!-- <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome6-2-0/css/all.css">
+        <script src="bootstrap5/js/bootstrap.min.js"></script>
+        <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap5/js/bootstrap.bundle.min.js.map"></script>
+        <script src="jq/jquery-3.7.1.js"></script> -->
+    </head>
+<body>
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light blur-bg-15px shadow-sm" id="stickyNavbar">
+            <div class="container">
+                <a class="navbar-brand Here" aria-current="page" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="music.php">Music</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ms-auto">
+                        <a href="admin_login.php">
+                            <img src="assets/images/eliazar_logo-tranparent.png" alt="Profile Image" class="profile-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Welcome -->
+        <div class="d-md-flex welcome-about">
+            <div class="position-absolute w-100 inx--1 ptr-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="ptr-none w-100"><path fill="var(--secondaryClr)" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,234.7C384,224,480,192,576,176C672,160,768,160,864,170.7C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            </div>
+            <div class="col-md-6 overflow-hidden">
+                <img src="assets/images/eliazar_n-transparent.png" alt="My photo" class="object-fit-cover" style="mask-image: linear-gradient(black, black, var(--black3) 90%, transparent); animation: slideInBottom 1s 1;">
+            </div>
+            <section class="container mx-md-4" style="--primaryClr: #3576cb">
+                <h1 class="display-5 my-5 text-primaryClr fw-bold">I am Eliazar</h1>
+                <p class="fs-4 mx-3 mx-md-0 mb-4 pt-xl-5">
+                    As a dedicated educator and music enthusiast 🎶, I am committed to fostering knowledge and creativity in my students. With a passion for teaching and a love for music, <span class="text-primaryClr fw-bold">I bring a unique blend of expertise to my role as a tutor, music teacher and composer</span>.
+                </p>
+                <!-- <a href="music.php" class="fs-5 mb-2 text-primaryClr bounceClick">My music</a>
+                <a href="services.html" class="fs-5 mb-2 ms-3 ms-md-3 text-primaryClr bounceClick">Services</a>
+                <a href="contact.html" class="fs-5 mb-2 ms-5 ms-md-3 text-primaryClr bounceClick">Contact me</a> -->
+                <a href="music.php" class="btn btn-lg pill mx-1 my-2 bg-secondaryClr text-light">My music</a>
+                <a href="services.html" class="btn btn-lg pill mx-1 my-2 bg-secondaryClr text-light">Services</a>
+                <a href="contact.html" class="btn btn-lg pill mx-1 my-2 bg-secondaryClr text-light">Contact me</a>
+            </section>
+        </div>
+        <div class="container col-lg-8">
+            <p class="py-5 text-muted">
+                " Welcome to my blog! Whether composing melodies or guiding students through their educational journey, I strive to inspire and empower those I teach, creating a harmonious learning environment where growth and discovery flourish."
+            </p>
+        </div>
+        
+        <!-- Services -->
+        <section class="container project-elem">
+            <h2 class="fs-1 fw-bold py-2 section-title">Here is what I do</h2>
+            <div class="d-flex mb-5 overflow-auto Sbar-sm-low-opacity">
+                <div class="p-2 col-10 col-sm-8 col-lg-5 col-xl-4 fs-5">
+                    <div class="border-3 p-3 rad-10">
+                        <h4 class="fw-bold mb-3 pb-3 border-bottom text-muted">🧑🏾‍💼 Composer</h4>
+                        <p>
+                            I create beautiful music that touches the heart and sparks imagination, bringing melodies to life. Each note painting emotions on the canvas of human experience, elevating feelings through the magic of music.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-2 col-10 col-sm-8 col-lg-5 col-xl-4 fs-5">
+                    <div class="border-3 p-3 rad-10">
+                        <h4 class="fw-bold mb-3 pb-3 border-bottom text-muted">🧑🏾‍💼 Educator/Teacher</h4>
+                        <p>
+                            Passionate educator inspiring learning, unlocking student potential through innovative teaching. Cultivating lifelong learners, empowering academic and personal growth.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-2 col-10 col-sm-8 col-lg-5 col-xl-4 fs-5">
+                    <div class="border-3 p-3 rad-10">
+                        <h4 class="fw-bold mb-3 pb-3 border-bottom text-muted">🧑🏾‍💼 Tuitor</h4>
+                        <p>
+                            Your trusted guide to academic success, offering personalized tutoring tailored to students' unique learning style, which helps turning their obstacles into achievable goals, one session at a time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect -->
+        <div class="section-breaker">
+            <article class="container">
+                <h4 class="text-secondaryClr text-center fs-2">Let us CONNECT</h4>
+                <div class="my-4 mx-auto">
+                    <p class="text-justify">
+                        <hr>
+                        Connect with me on social media to stay updated on my music trends, teaching techniques, and creative inspirations and compositions. Let's engage with fellow enthusiasts, share insights, and explore opportunities together!
+                    </p>
+                    <ul class="px-0 w-fit reduceOpacityNotHovered list-flexible">
+                        <li class="scaleDownHover clickDown">
+                            <a href="https://www.youtube.com/@ririmbamediaeliazar" target="_blank" class="btn btn-md fw-bold" style="color: #ff0000; box-shadow: none;"><span class="fa fa-film me-3"></span>YouTube <span class="fas fa-angle-right ms-3"></span></a>
+                        </li>
+                        <li class="scaleDownHover clickDown">
+                            <a href="https://www.instagram.com/endayisabye/" target="_blank" class="btn btn-md fw-bold" style="color: #cb007b; box-shadow: none;"><span class="fab fa-instagram me-3"></span> Instagram <span class="fa fa-angle-right ms-3"></span></a>
+                        </li>
+                        <li class="scaleDownHover clickDown">
+                            <a href="https://twitter.com/Eliazarmusicien" target="_blank" class="btn btn-md fw-bold" style="color: #0f121b; box-shadow: none;"><span class="fab fa-twitter me-3"></span> X <span class="fa fa-angle-right ms-3"></span></a>
+                        </li>
+                        <li class="scaleDownHover clickDown">
+                            <a href="https://www.facebook.com/eliazar.ndayisabye" target="_blank" class="btn btn-md fw-bold" style="color: #0765fe; box-shadow: none;"><span class="fab fa-facebook me-3"></span> Facebook <span class="fa fa-angle-right ms-3"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <div class="d-lg-flex my-5 col-xl-10 container">
+                <div class="embed-responsive embed-responsive-16by9 col-lg-5 col-xl-6">
+                    <iframe  height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/zKDFW4_Zvb0/" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" width="100%" height="100%" allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="p-3 px-lg-5 fs-5">
+                    I take great pleasure in sharing some of my deeply heartfelt compositions through video on my YouTube channel. You'll discover videos featuring my compositions, alongside recordings of songs performed with my choir and other choirs from various spiritual events. Feel free to visit my channel for more content.<br><br>
+                    <a href="https://www.youtube.com/@ririmbamediaeliazar" target="_blank" class="btn btn-lg btn-danger"><span class="fab fa-youtube me-3"></span> Watch more</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Compositions -->
+        <section class="container project-elem">
+            <h2 class="fs-1 fw-bold py-2 section-title">My music compositions</h2>
+            <div class="d-lg-flex mb-5">
+                <div class="mx-auto col-12 col-lg-8 circular-gallery item-primaryClr text-light" style="--dataCount: 5;" id="circularGalleryCompositions">
+                    <div class="circular-gallery-item object-fit-cover" style="--_child: 4;">
+                        <img src="assets/images/compositions/nyirubutagatifu-image.png" alt="mscz" class="object-fit-cover">
+                        <div class="flex-center p-2">Nyirubutagatifu</div>
+                    </div>
+                    <div class="circular-gallery-item object-fit-cover" style="--_child: 3;">
+                        <img src="assets/images/compositions/ntakiri_mu_mva-image.png" alt="mscz" class="object-fit-cover">
+                        <div class="flex-center p-2">Ntakiri mu mva</div>
+                    </div>
+                    <div class="circular-gallery-item object-fit-cover" style="--_child: 2;">
+                        <img src="assets/images/compositions/komeza_abana_bawe-image.png" alt="mscz" class="object-fit-cover">
+                        <div class="flex-center p-2">Komeza abana bawe</div>
+                    </div>
+                    <div class="circular-gallery-item object-fit-cover" style="--_child: 1;">
+                        <img src="assets/images/compositions/nyagasani_utubabarire-image.png" alt="mscz" class="object-fit-cover">
+                        <div class="flex-center p-2">Nyagasani utubabarire</div>
+                    </div>
+                    <div class="circular-gallery-item object-fit-cover" style="--_child: 0;">
+                        <img src="assets/images/compositions/tugutuye_aba_bageni-image.png" alt="mscz" class="object-fit-cover">
+                        <div class="flex-center p-2">Tugutuye aba bageni</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-around mt-4 circular-gallery-navigator" data-control="#circularGalleryCompositions">
+                    <button class="fa fa-angle-left btn btn-lg py-3 col-5 align-self-center clickDown shadow switcher switcher-prev"></button>
+                    <button class="fa fa-angle-right btn btn-lg py-3 col-5 align-self-center clickDown shadow switcher switcher-next"></button>
+                </div>
+            </div>
+            <p class="p-2 px-md-4 fs-5">
+                As a dedicated musician and composer, I pour my passion and creativity into <span class="fw-bold text-secondaryClr">crafting unique musical compositions</span>. From soulful melodies to vibrant rhythms, each piece is meticulously composed to evoke emotions and captivate audiences. Whether you're seeking enchanting melodies for your project or immersive soundscapes for your event, my compositions offer a harmonious blend of creativity and expression.<br>
+                <a href="music.php" class="btn btn-lg bg-secondaryClr text-light my-4 clickDown">My music <span class="fa fa-angle-right ms-3"></span></a>
+            </p>
+        </section>
+
+        <!-- Services -->
+        <section class="container project-elem">
+            <h2 class="fs-1 fw-bold py-2 section-title">Embrace my services</h2>
+            <div class="d-lg-flex mb-5">
+                <p class="col-lg-7 abs-images">
+                    <img src="assets/images/IMG_20240117_184414_367.jpg" alt="Project image" class="object-fit-cover rad-10 trbl-shadow-lg">
+                    <img src="assets/images/IMG_20240127_143843_906.jpg" alt="Project image" class="object-fit-contain rad-10 clip-path-section" style="width: 35% !important;">
+                </p>
+                <p class="col-lg-5 p-2 p-md-4 fs-5">
+                    As an educator, tutor, teacher, and music teacher/songwriter, I thrive on the diverse roles I play. From guiding students' learning journeys to crafting heartfelt compositions, <strong class="text-secondaryClr">each service reflects my passion for teaching and creativity</strong>. Explore the array of services I offer and embark on a journey of growth and inspiration.<br>
+                    <a href="services.html" class="btn btn-lg bg-secondaryClr text-light my-4 clickDown">My services <span class="fa fa-angle-right ms-3"></span></a>
+                </p>
+            </div>
+        </section>
+        <div class="mb-0 section-breaker" style="translate: 0 1.5rem">
+            <div class="contact-info container">
+                <h3 class="text-center display-3 w-fit mx-auto item-primaryClr text-primaryClr small-title">Contact me</h3>
+                <div class="d-md-flex">
+                    <div class="col-md-4 flex-center">
+                        <span class="fa fa-at display-1 p-5 my-3 rad-50 shadow"></span>
+                    </div>
+                    <div class="p-3 p-lg-5">
+                        <ul class="list-style-bell">
+                            <li class="py-2">
+                                <strong class="me-3">Phone:</strong> +(250) 788 429 419
+                            </li>
+                            <li class="py-2">
+                                <strong class="me-3">Email:</strong> <a href="mailto:eliazarndayisabye@gmail.com" target="_blank">eliazarndayisabye@gmail.com</a>
+                            </li>
+                            <li class="py-2">
+                                <strong class="me-3">Address:</strong> Kigali - Kicukiro - Rebero
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <div class="footer-top w-100 h-10vh bg-secondaryClr"></div>
+    <footer>
+        <button class="fa fa-angle-up p-3 toTop border" style="border-color: var(--white4) !important"></button>
+        <div class="d-lg-flex py-5 justify-content-around flex-row-reverse container-lg">
+            <div class="align-self-center ">
+                <h6 class="fs-4 text-center">Follow me</h6>
+                <div class="d-flex flex-wrap justify-content-center social-media-icons">
+                    <a href="https://www.youtube.com/@ririmbamediaeliazar" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My instagram"><span class="fab fa-youtube"></span></a>
+                    <a href="https://twitter.com/Eliazarmusicien" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My Twitter"><span class="fab fa-x-twitter"></span></a>
+                    <a href="https://www.facebook.com/eliazar.ndayisabye" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My Facebook"><span class="fab fa-facebook"></span></a>
+                </div>
+            </div>
+            <nav class="flex-grow-1 p-4">
+                <ul class="list-unstyled">
+                    <li class="py-2 Here"><a href="#">Home</a></li>
+                    <li class="py-2"><a href="music.php">Music</a></li>
+                    <li class="py-2"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="d-sm-flex flex-wrap">
+                <strong class="d-block col-sm-6 py-3 align-self-center p-3 border-end" style="white-space: nowrap;">©️ <span class="copyright-year">2024</span> Eliazar N.</strong>
+                <strong class="d-block col-sm-6 py-3 align-self-center p-3" style="white-space: nowrap;"><span class="fa fa-map-marker-alt me-3"></span> Kigali - Rwanda</span></strong>
+            </div>
+        </div>
+        <div class="pb-3 text-center text-muted small powered-by">
+            <span class="fa fa-code me-1"></span> Powered by <a href="https://hirwa9.github.io" target="_blank" class=" text-muted"><strong>Hirwa</strong></a>
+        </div>
+    </footer>
+    <script src="myScripts.js"></script>
+</body>
+</html>

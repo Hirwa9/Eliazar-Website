@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Eliazar - about</title>
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <meta name="author" content="Hirwa Willy">
+        <meta name="keywords" content="HTML, CSS">
+        
+        <!-- BS, FA & jQ -->
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- custom styles-->
+        <link rel="icon" type="image/x-icon" href="assets/images/eliazar.ico">
+        <link rel="stylesheet" type="text/css" href="styles/about.css?v=1.0004">
+    </head>
+<body>
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light blur-bg-15px shadow-sm" id="stickyNavbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link Here" href="#" aria-current="page">About</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="music.php">Music</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ms-auto">
+                        <a href="admin_login.php">
+                            <img src="assets/images/eliazar_logo-tranparent.png" alt="Profile Image" class="profile-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Services -->
+        <div class="welcome-about" style="background-image: none; height: auto;">
+            <div class="position-absolute w-100 inx--1 ptr-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="ptr-none w-100"><path fill="var(--secondaryClr)" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,234.7C384,224,480,192,576,176C672,160,768,160,864,170.7C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            </div>
+            <section class="container mx-md-4">
+                <h1 class="display-5 mb-5 pt-2 pt-lg-5 text-primaryClr fw-bold">ABOUT ME</h1>
+                <p class="fs-4 mx-3 mx-md-0 mb-4 pt-md-5 text-secondaryClr">
+                    I'm thrilled to share a glimpse into my world with you. With a passion for education and a love for music, <strong class="text-primaryClr">I've dedicated myself to both teaching and composing</strong>.
+                </p>
+            </section>
+            <div class="mt-5" style="z-index: -2;">
+                <!-- Carousel -->
+                <div class="d-lg-flex position-relative top-section-part" style="background-image: linear-gradient(transparent 40%, var(--black3) 40%); padding-bottom: 7rem;">
+                    <div id="aboutCarousel" class="col-lg-8 overflow-hidden carousel slide carousel-fade carousel-dark fancy-top-bottom-border" data-bs-ride="carousel" data-bs-interval="5000" data-bs-keyboard="true" data-bs-touch="true" data-bs-wrap="true" data-bs-pause="false" style="max-height: 80vh; animation: scaleInX .5s 1;">
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="bg-black2 h-100 carousel-item active">
+                                <img src="assets/images/eliazar_n2.jpeg" alt="service image" class="d-block w-100 h-100">
+                            </div>
+                            <div class="bg-black2 h-100 carousel-item">
+                                <img src="assets/images/IMG_20240127_143948_589.jpg" alt="service image" class="d-block w-100 h-100">
+                            </div>
+                            <div class="bg-black2 h-100 carousel-item">
+                                <img src="assets/images/IMG_20240127_143737_159.jpg" alt="service image" class="d-block w-100 h-100">
+                            </div>
+                            <div class="bg-black2 h-100 carousel-item">
+                                <img src="assets/images/IMG_20240122_175356_116.jpg" alt="service image" class="d-block w-100 h-100">
+                            </div>
+                        </div>
+                        <!-- controls -->
+                        <button class="btn btn-lg fs-2 blur-bg-1px rad-10 carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev" style="opacity: 1; height: 3rem; top: 50%; left: 7%; translate-y: -50%;">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="btn btn-lg fs-2 blur-bg-1px rad-10 carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next" style="opacity: 1; height: 3rem; top: 50%; right: 7%; translate-y: -50%;">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <div class="p-3 p-xl-5 fs-4">
+                        <p class="m-0">
+                            I strive to empower others through knowledge and learning. Whether in the classroom or one-on-one sessions, I'm committed to helping my students reach their full potential.
+                        </p>
+                    </div>
+                    <div class="position-absolute d-none d-md-block inx--1 col-md-4 ms-auto ptr-none" style="top: 39.8%; right: 0;">
+                        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" ><path d="M 0,400 L 0,400 C 68.9974358974359,298.77948717948715 137.9948717948718,197.55897435897435 223,140 C 308.0051282051282,82.44102564102566 409.0179487179487,68.54358974358976 492,100 C 574.9820512820513,131.45641025641024 639.9333333333333,208.26666666666665 706,222 C 772.0666666666667,235.73333333333335 839.248717948718,186.3897435897436 934,169 C 1028.751282051282,151.6102564102564 1151.071794871795,166.17435897435897 1240,210 C 1328.928205128205,253.82564102564103 1384.4641025641026,326.91282051282053 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="var(--bodi)" fill-opacity="1" transform="rotate(-180 720 200)"></path></svg>
+                    </div>
+                </div>
+                <!-- Bottom part -->
+                <div class="position-relative overflow-hidden bg-black3 px-5 border-0 bottom-section-part" style="padding-top: 5rem;">
+                    <p class="">
+                        Besides teaching, music is my muse, and it's where I find solace and inspiration. I'm not only a music teacher but also a songwriter and composer. Crafting melodies and lyrics that resonate with others brings me immense fulfillment.
+                    </p>
+                </div>
+                <div class="mx-auto bg-black3">
+                    <div class="d-md-flex flex-wrap justify-content-center col-xl-10 container">
+                        <div class="col-md-6 col-lg-4 p-2">
+                            <img src="assets/images/IMG_20240127_143737_159.jpg" alt="" height="200px" class="object-fit-cover p-3 bg-secondaryClr fancy-2-all-borders" style="object-position: center top;">
+                        </div>
+                        <div class="col-md-6 col-lg-4 p-2">
+                            <img src="assets/images/compositions/nyirubutagatifu-image.png" alt="" height="200px" class="object-fit-cover p-3 bg-secondaryClr fancy-2-all-borders" style="object-position: center top;">
+                        </div>
+                        <div class="col-md-6 col-lg-4 p-2">
+                            <img src="assets/images/IMG_20240127_143955_979.png" alt="" height="200px" class="object-fit-cover p-3 bg-secondaryClr fancy-2-all-borders" style="object-position: center top;">
+                        </div>
+                        <div class="col-md-6 col-lg-4 p-2">
+                            <img src="assets/images/IMG-20240105-WA0008.jpg" alt="" height="200px" class="object-fit-cover p-3 bg-secondaryClr fancy-2-all-borders" style="object-position: center top;">
+                        </div>
+                    </div>
+                </div>
+                <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150 border-0 inx--1 ptr-none"><style>
+                    .path-0{
+                      animation:pathAnim-0 40s;
+                      animation-timing-function: linear;
+                      animation-iteration-count: infinite;
+                    }
+                    @keyframes pathAnim-0{
+                      0%{
+                        d: path("M 0,400 L 0,150 C 128.85714285714286,115.85714285714286 257.7142857142857,81.71428571428571 378,80 C 498.2857142857143,78.28571428571429 610,109.00000000000003 721,131 C 832,152.99999999999997 942.2857142857142,166.28571428571428 1062,168 C 1181.7142857142858,169.71428571428572 1310.857142857143,159.85714285714286 1440,150 L 1440,400 L 0,400 Z");
+                      }
+                      25%{
+                        d: path("M 0,400 L 0,150 C 85.96428571428572,151.21428571428572 171.92857142857144,152.42857142857144 313,136 C 454.07142857142856,119.57142857142857 650.2500000000001,85.50000000000001 765,80 C 879.7499999999999,74.49999999999999 913.0714285714287,97.57142857142856 1012,114 C 1110.9285714285713,130.42857142857144 1275.4642857142858,140.21428571428572 1440,150 L 1440,400 L 0,400 Z");
+                      }
+                      50%{
+                        d: path("M 0,400 L 0,150 C 77.71428571428572,168.28571428571428 155.42857142857144,186.57142857142858 295,187 C 434.57142857142856,187.42857142857142 636.0000000000001,170 765,147 C 893.9999999999999,123.99999999999999 950.5714285714287,95.42857142857143 1051,95 C 1151.4285714285713,94.57142857142857 1295.7142857142858,122.28571428571428 1440,150 L 1440,400 L 0,400 Z");
+                      }
+                      75%{
+                        d: path("M 0,400 L 0,150 C 127.92857142857142,161.67857142857144 255.85714285714283,173.35714285714286 363,168 C 470.14285714285717,162.64285714285714 556.5,140.25000000000003 687,137 C 817.5,133.74999999999997 992.1428571428571,149.64285714285714 1125,155 C 1257.857142857143,160.35714285714286 1348.9285714285716,155.17857142857144 1440,150 L 1440,400 L 0,400 Z");
+                      }
+                      100%{
+                        d: path("M 0,400 L 0,150 C 128.85714285714286,115.85714285714286 257.7142857142857,81.71428571428571 378,80 C 498.2857142857143,78.28571428571429 610,109.00000000000003 721,131 C 832,152.99999999999997 942.2857142857142,166.28571428571428 1062,168 C 1181.7142857142858,169.71428571428572 1310.857142857143,159.85714285714286 1440,150 L 1440,400 L 0,400 Z");
+                      }
+                    }</style><path d="M 0,400 L 0,150 C 128.85714285714286,115.85714285714286 257.7142857142857,81.71428571428571 378,80 C 498.2857142857143,78.28571428571429 610,109.00000000000003 721,131 C 832,152.99999999999997 942.2857142857142,166.28571428571428 1062,168 C 1181.7142857142858,169.71428571428572 1310.857142857143,159.85714285714286 1440,150 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="var(--black3)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path>
+                </svg>
+
+                <!-- Education -->
+                <section class="mb-5 container">
+                    <h2 class="fs-1 fw-bold py-2 section-title">My education</h2>
+                    <p class="pt-3 fs-5">
+                        I did my high school education at Petit Séminaire Saint-Aloys, Grand Séminaire Saint-Joseph de Rutongo, and Philosophicum Saint Thomas d'Aquin de Kabgayi. I graduated from the University of Technology and Arts of Byumba (UTAB) in <b>Social Science</b> faculty.
+                    </p>
+                    <div class="d-md-flex">
+                        <img src="assets/images/eliazar_n1.jpeg" alt="" class="object-fit-cover col-md-6 col-lg-3 cut-in-edges" style="object-position: center top; max-height: 105vh;">
+                        <div class="d-lg-flex bg-secondaryClr text-light cut-in-edges">
+                            <img src="assets/images/utab_logo.png" alt="" class="object-fit-cover" style="object-position: center top;">
+                            <p class="m-0 p-3 p-md-4 fs-6" style="font-size: 70%;">
+                                (UTAB), formerly known as the Institut Polytechnique de Byumba (IPB), plays a crucial role in supporting Rwanda's comprehensive development process and contributing to the country's vision of a modern, knowledge-based economy <br> <br>
+                                <a href="https://utab.ac.rw/" target="_blank" class="btn btn-sm btn-light pill"><span class="fa fa-globe me-2"></span> Visit UTAB</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Hobbies -->
+                <section class="mb-5 container">
+                    <h2 class="fs-1 fw-bold py-2 section-title">My hobbies</h2>
+                    <p class="pt-3 fs-5">
+                        In my free time, you'll often find me singing with choirs, harmonizing with fellow voices to create something magical. I also enjoy the meditative practice of playing the piano, losing myself in the melodies of classical compositions.
+                    </p>
+                    <div class="d-md-flex flex-wrap justify-content-center col-lg-10 col-xl-12 mx-auto my-5">
+                        <div class="col-md-6  col-xl-3 bg-secondaryClr text-light cut-in-edges">
+                            <img src="assets/images/musical_notes.jpg" alt="" height="200px" class="object-fit-cover" style="object-position: center top;">
+                            <p class="m-0 p-3 p-md-4 fs-6 flex-center position-relative" style="font-size: 70%; height: calc(100% - 200px); min-height: 180px;">
+                                <svg width="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150 position-absolute inx--1 ptr-none" style="top: 0;"><style>
+                                    .path-1{
+                                      animation:pathAnim-1 10s;
+                                      animation-timing-function: linear;
+                                      animation-iteration-count: infinite;
+                                    }
+                                    @keyframes pathAnim-1{
+                                      0%{
+                                        d: path("M 0,400 L 0,400 C 132.85714285714286,250.78571428571428 265.7142857142857,101.57142857142857 375,77 C 484.2857142857143,52.42857142857143 570,152.5 673,178 C 776,203.5 896.2857142857142,154.42857142857144 1027,179 C 1157.7142857142858,203.57142857142856 1298.857142857143,301.7857142857143 1440,400 L 1440,400 L 0,400 Z");
+                                      }
+                                      25%{
+                                        d: path("M 0,400 L 0,400 C 103.78571428571428,297.82142857142856 207.57142857142856,195.64285714285714 333,161 C 458.42857142857144,126.35714285714286 605.5,159.25 716,138 C 826.5,116.75000000000001 900.4285714285716,41.35714285714286 1015,76 C 1129.5714285714284,110.64285714285714 1284.7857142857142,255.32142857142856 1440,400 L 1440,400 L 0,400 Z");
+                                      }
+                                      50%{
+                                        d: path("M 0,400 L 0,400 C 152.3571428571429,295.0357142857143 304.7142857142858,190.07142857142858 420,160 C 535.2857142857142,129.92857142857142 613.4999999999998,174.75 717,180 C 820.5000000000002,185.25 949.2857142857144,150.92857142857144 1074,181 C 1198.7142857142856,211.07142857142856 1319.3571428571427,305.5357142857143 1440,400 L 1440,400 L 0,400 Z");
+                                      }
+                                      75%{
+                                        d: path("M 0,400 L 0,400 C 143.67857142857144,296.60714285714283 287.3571428571429,193.21428571428572 411,157 C 534.6428571428571,120.78571428571429 638.25,151.74999999999997 731,158 C 823.75,164.25000000000003 905.6428571428573,145.78571428571428 1022,182 C 1138.3571428571427,218.21428571428572 1289.1785714285713,309.1071428571429 1440,400 L 1440,400 L 0,400 Z");
+                                      }
+                                      100%{
+                                        d: path("M 0,400 L 0,400 C 132.85714285714286,250.78571428571428 265.7142857142857,101.57142857142857 375,77 C 484.2857142857143,52.42857142857143 570,152.5 673,178 C 776,203.5 896.2857142857142,154.42857142857144 1027,179 C 1157.7142857142858,203.57142857142856 1298.857142857143,301.7857142857143 1440,400 L 1440,400 L 0,400 Z");
+                                      }
+                                    }</style><path d="M 0,400 L 0,400 C 132.85714285714286,250.78571428571428 265.7142857142857,101.57142857142857 375,77 C 484.2857142857143,52.42857142857143 570,152.5 673,178 C 776,203.5 896.2857142857142,154.42857142857144 1027,179 C 1157.7142857142858,203.57142857142856 1298.857142857143,301.7857142857143 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="var(--bodi)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg>
+                                <span class="fs-4 pt-4"><span class="text-warning fw-bolder fs-1 me-2">Music</span> is my hobby 🤩</span>
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xl-3 bg-secondaryClr text-light cut-in-edges">
+                            <img src="assets/images/singing_choir.jpg" alt="" height="200px" class="object-fit-cover" style="object-position: center top;">
+                            <p class="m-0 p-3 p-md-4 fs-6" style="font-size: 70%;">
+                                Engaging in choir rehearsals and participating in Holy Masses brings me great joy and peace. Singing alongside fellow choir members not only aids in prayer but also uplifts my spirit.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xl-3 bg-secondaryClr text-light cut-in-edges">
+                            <img src="assets/images/hands_playing_piano.png" alt="" height="200px" class="object-fit-cover" style="object-position: center top;">
+                            <p class="m-0 p-3 p-md-4 fs-6" style="font-size: 70%;">
+                                Personally, playing the piano serves as a means to relax and discover moments of tranquility within myself. It allows me to unwind and delve into a space of inner calm.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-xl-3 bg-secondaryClr text-light cut-in-edges">
+                            <img src="assets/images/classical_music.webp" alt="" height="200px" class="object-fit-cover" style="object-position: center top;">
+                            <p class="m-0 p-3 p-md-4 fs-6" style="font-size: 70%;">
+                                Listening to classical music is one of my favorite pastimes. It not only enhances my musical skills but also enriches my appreciation for the art form.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact -->
+                <div class="mb-0 section-breaker" style="translate: 0 1.5rem">
+                    <div class="contact-info container">
+                        <h3 class="text-center display-3 w-fit mx-auto item-primaryClr text-primaryClr small-title">Get in touch</h3>
+                        <p class="fs-3 mt-5 text-center">
+                            If you'd like to connect, please feel free to reach out
+                        </p>
+                        <div class="d-md-flex">
+                            <div class="col-md-4 flex-center">
+                                <span class="fa fa-at display-1 p-5 my-3 rad-50 shadow"></span>
+                            </div>
+                            <div class="p-3 p-lg-5">
+                                <ul class="list-style-bell">
+                                    <li class="py-2">
+                                        <strong class="me-3">Phone:</strong> +(250) 788 429 419
+                                    </li>
+                                    <li class="py-2">
+                                        <strong class="me-3">Email:</strong> <a href="mailto:eliazarndayisabye@gmail.com" target="_blank">eliazarndayisabye@gmail.com</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <strong class="me-3">Address:</strong> Kigali - Kicukiro - Rebero
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer-top w-100 h-10vh bg-secondaryClr"></div>
+    <footer>
+        <button class="fa fa-angle-up p-3 toTop border" style="border-color: var(--white4) !important"></button>
+        <div class="d-lg-flex py-5 justify-content-around flex-row-reverse container-lg">
+            <div class="align-self-center ">
+                <h6 class="fs-4 text-center">Follow me</h6>
+                <div class="d-flex flex-wrap justify-content-center social-media-icons">
+                    <a href="https://www.youtube.com/@ririmbamediaeliazar" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My instagram"><span class="fab fa-youtube"></span></a>
+                    <a href="https://twitter.com/Eliazarmusicien" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My Twitter"><span class="fab fa-x-twitter"></span></a>
+                    <a href="https://www.facebook.com/eliazar.ndayisabye" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My Facebook"><span class="fab fa-facebook"></span></a>
+                </div>
+            </div>
+            <nav class="flex-grow-1 p-4">
+                <ul class="list-unstyled">
+                    <li class="py-2"><a href="index.html">Home</a></li>
+                    <li class="py-2"><a href="music.php">Music</a></li>
+                    <li class="py-2"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="d-sm-flex flex-wrap">
+                <strong class="d-block col-sm-6 py-3 align-self-center p-3 border-end" style="white-space: nowrap;">©️ <span class="copyright-year">2024</span> Eliazar N.</strong>
+                <strong class="d-block col-sm-6 py-3 align-self-center p-3" style="white-space: nowrap;"><span class="fa fa-map-marker-alt me-3"></span> Kigali - Rwanda</span></strong>
+            </div>
+        </div>
+        <div class="pb-3 text-center text-muted small powered-by">
+            <span class="fa fa-code me-1"></span> Powered by <a href="https://hirwa9.github.io" target="_blank" class=" text-muted"><strong>Hirwa</strong></a>
+        </div>
+    </footer>
+    <style>
+        .top-section-part {
+            --top: 
+            linear-gradient(#000 0 0) top/100% calc(100% - 50px) no-repeat,
+            radial-gradient(farthest-side,#000 98%,#0000) bottom/100px 100px no-repeat;
+            -webkit-mask: var(--top);
+            mask: var(--top);
+        }
+        .bottom-section-part {
+            --bottom: radial-gradient(calc(10px + 50px) at 50% -10px,#0000 98%,#000);
+            -webkit-mask: var(--bottom);
+            mask: var(--bottom);
+            margin-top: -40px;
+        }
+
+        /* .top-section-part {
+            clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+        }
+        .bottom-section-part {
+            clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+            margin-top: -40px;
+        } */
+
+        /* Fancy border */
+        .fancy-bottom-border {
+            --mask: radial-gradient(8px at bottom,#0000 97%,#000) 50% / 14.8px 100%;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+        }
+        .fancy-top-bottom-border {
+            --mask: radial-gradient(8px at 50% 8px,#0000 97%,#000) 50% -8px/ 14.8px 100%;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+        }
+        .fancy-all-borders {
+            --mask: 
+            linear-gradient(#000 0 0) 50%/calc(100% - 16px) calc(100% - 16px) no-repeat,
+            radial-gradient(8px,#0000 98%,#000) 0 -8px/14.8px 16px round no-repeat,
+            radial-gradient(8px,#0000 98%,#000) 0 calc(100% + 8px)/14.8px 16px round no-repeat,
+            radial-gradient(8px,#0000 98%,#000) -8px 0/16px 14.8px no-repeat round,
+            radial-gradient(8px,#0000 98%,#000) calc(100% + 8px) 0/16px 14.8px no-repeat round;
+            clip-path: polygon(16px 0,calc(100% - 16px) 0,100% 16px,100% calc(100% - 16px),calc(100% - 16px) 100%,16px 100%,0 calc(100% - 16px),0 16px);
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+        }
+        .fancy-2-all-borders {
+            --mask: 
+              linear-gradient(#000 0 0) 50%/calc(100% - 14.8px) calc(100% - 14.8px) no-repeat,
+              radial-gradient(farthest-side,#000 98%,#0000) 0 0/16px 16px round;
+              -webkit-mask: var(--mask);
+              mask: var(--mask);
+        }
+
+        /* Custom borders */
+        .cut-in-edges {
+            --mask: radial-gradient(15px at 15px 15px,#0000 98%,#000) -15px -15px;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+        }
+        /* Decoration svgs */
+        .svg-star {
+            width: 7rem;
+        }
+        @media screen and (min-width: 576px) {
+            .svg-star {
+                width: 15%;
+            }
+        }
+    </style>
+    <script src="myScripts.js"></script>
+</body>
+</html>

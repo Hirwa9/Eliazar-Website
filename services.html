@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Eliazar - services</title>
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <meta name="author" content="Hirwa Willy">
+        <meta name="keywords" content="HTML, CSS">
+        
+        <!-- BS, FA & jQ -->
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- custom styles-->
+        <link rel="icon" type="image/x-icon" href="assets/images/eliazar.ico">
+        <link rel="stylesheet" type="text/css" href="styles/services.css?v=1.0004">
+    </head>
+<body>
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light blur-bg-15px shadow-sm" id="stickyNavbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="music.php">Music</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link Here" href="#" aria-current="page">Services</a>
+                        </li>
+                        <li class="nav-item ps-3 ps-md-0 py-2 py-sm-0">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ms-auto">
+                        <a href="admin_login.php">
+                            <img src="assets/images/eliazar_logo-tranparent.png" alt="Profile Image" class="profile-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Services -->
+        <div class="d-lg-flex welcome-about" style="height: auto;">
+            <div class="position-absolute w-100 inx--1 ptr-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="ptr-none w-100"><path fill="var(--secondaryClr)" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,234.7C384,224,480,192,576,176C672,160,768,160,864,170.7C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            </div>
+            <div class="col-lg-7 d-flex overflow-hidden" style="flex-direction: column;">
+                <img src="assets/images/eliazar_n-transparent.png" alt="" class="object-fit-cover rad-50 mx-auto my-3 p-1 mask-bottom" style="width: 7rem; height: 7rem; border: 6px solid var(--black4);">
+                <div class="mb-3 p-3">
+                    <a href="#service-teaching" class="btn btn-lg pill mx-1 my-2 bg-secondaryClr border-white4 text-light"><span class="fa fa-book-open me-2"></span> Tutoring</a>
+                    <a href="#service-music-teaching" class="btn btn-lg pill mx-1 my-2 bg-secondaryClr border-white4 text-light"><span class="fa-solid fa-music me-2"></span> Music teaching</a>
+                    <a href="#service-composition" class="btn btn-lg pill mx-1 my-2 bg-secondaryClr border-white4 text-light"><span class="fa fa-music me-2"></span> Song composition</a>
+                </div>
+
+                <!-- Carousel -->
+                <div id="compositionsCarousel" class="mask-bottom overflow-hidden carousel slide carousel-fade carousel-dark" data-bs-ride="carousel" data-bs-interval="5000" data-bs-keyboard="true" data-bs-touch="true" data-bs-wrap="true" data-bs-pause="false" style="height: 315px; animation: slideInBottom 3s 1; box-shadow: 0 -1rem 5rem var(--black3);">
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="bg-black2 h-100 carousel-item active">
+                            <img src="assets/images/IMG_20240122_175356_116.jpg" alt="service image" class="d-block w-100 h-100">
+                        </div>
+                        <div class="bg-black2 h-100 carousel-item">
+                            <img src="assets/images/IMG_20240127_143948_589.jpg" alt="service image" class="d-block w-100 h-100">
+                        </div>
+                        <div class="bg-black2 h-100 carousel-item">
+                            <img src="assets/images/IMG-20240105-WA0008.jpg" alt="service image" class="d-block w-100 h-100">
+                        </div>
+                        <div class="bg-black2 h-100 carousel-item">
+                            <img src="assets/images/IMG_20240127_142022_0.jpg" alt="service image" class="d-block w-100 h-100">
+                        </div>
+                    </div>
+                    <!-- controls -->
+                    <button class="btn btn-lg fs-2 blur-bg-1px rad-10 carousel-control-prev" type="button" data-bs-target="#compositionsCarousel" data-bs-slide="prev" style="opacity: 1; height: 3rem; top: 50%; left: 7%; translate-y: -50%;">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="btn btn-lg fs-2 blur-bg-1px rad-10 carousel-control-next" type="button" data-bs-target="#compositionsCarousel" data-bs-slide="next" style="opacity: 1; height: 3rem; top: 50%; right: 7%; translate-y: -50%;">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <section class="container mx-md-4">
+                <h1 class="display-5 my-5 text-primaryClr fw-bold">MY SERVICES</h1>
+                <p class="fs-4 mx-3 mx-md-0 mb-4 pt-xl-5 text-justify">
+                    In my roles as an educator, tutor, and musician - songwriter and teacher, I find fulfillment in the various hats I wear.<br><br> Whether it's nurturing students' educational paths or composing soulful music, <strong class="text-secondaryClr">each endeavor showcases my dedication to teaching and artistic expression</strong>.<br><br>
+                    Explore the services I provide below.
+                </p>
+            </section>
+        </div>
+        
+
+        <div class="px-0 my-5 services-showcase">
+            <!-- Teaching -->
+            <div class="container" id="service-teaching">
+                <h2 class="display-3 mb-5 w-fit item-secondaryClr text-secondaryClr small-title">Classroom Teaching and Tutoring</h2>
+                <div class="pb-3 Sbar-sm-low-opacity col-md-8 mx-auto images-showcase">
+                    <img src="assets/images/IMG_20240117_184414_367.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/IMG_20240117_184427_905.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/IMG_20240122_175356_116.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/IMG_20240127_141902_067.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                </div>
+                <p class="p-3 p-md-5 fs-4 position-relative bg-bodi inx-1 shadow" style="border-radius: 0 0 2rem 2rem;">
+                    My students immerse themselves in vibrant learning adventures customized to meet their needs. Whether it's in a classroom environment or during individual tutoring sessions, I offer personalized guidance to nurture their academic development and boost their confidence.
+                </p>
+            </div>
+            <div class="position-relative overflow-hidden fancy-bottom-border" style="translate: 0 -3rem;">
+                <img src="assets/images/IMG_20240117_184427_905.jpg" alt="Students studying" class="position-relative h-100vh object-fit-cover" style="object-position: center 0;">
+                <div class="position-absolute w-100vw h-100vh pt-5" style=" background-image:linear-gradient(90deg, var(--secondaryClr3), var(--secondaryClr1), var(--secondaryClr)); top: 0;">
+                    <p class="col-md-6 ms-auto text-light fw-bold p-4 fs-3">
+                        Here, students engage in after-class studies where I help them review what we covered earlier in class, complete their homework, identify their weak spots, and familiarize themselves with continuous learning. This approach aims for perfection and strengthens their performance in class.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Music teacher -->
+            <div class="container" id="service-music-teaching">
+                <h2 class="display-3 mb-5 w-fit item-secondaryClr text-secondaryClr small-title">Music teaching</h2>
+                <div class="pb-3 Sbar-sm-low-opacity col-md-8 mx-auto images-showcase">
+                    <img src="assets/images/IMG_20240127_143843_906.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/IMG_20240127_143737_159.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/IMG_20240127_142529_5.png" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/IMG_20240127_144001_930.jpg" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                </div>
+                <p class="p-3 p-md-5 fs-4 position-relative bg-bodi inx-1 shadow" style="border-radius: 0 0 2rem 2rem;">
+                    Discover the joy of music through interactive lessons designed just for you. Whether it's learning an instrument or exploring songwriting, I'll guide you through every step, making the journey enjoyable and rewarding.
+                </p>
+            </div>
+            <div class="position-relative overflow-hidden fancy-bottom-border" style="translate: 0 -3rem;">
+                <img src="assets/images/IMG_20240127_143948_589.jpg" alt="Students learning musical instruments" class="position-relative h-100vh object-fit-cover" style="object-position: center 0;">
+                <div class="position-absolute w-100vw h-100vh pt-5" style=" background-image:linear-gradient(90deg, var(--secondaryClr3), var(--secondaryClr1), var(--secondaryClr)); top: 0;">
+                    <p class="col-md-6 ms-auto text-light fw-bold p-4 fs-3">
+                        With my music skills, I find it both interesting and fulfilling to teach others what I know. In my music class, learners and enthusiasts come to master various musical instruments. They acquire the lasting skills needed to play music independently and bring joy to their audience.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Song writting & composition -->
+            <div class="container" id="service-composition">
+                <h2 class="display-3 mb-5 w-fit item-secondaryClr text-secondaryClr small-title">Song composition</h2>
+                <div class="pb-3 Sbar-sm-low-opacity col-md-8 mx-auto images-showcase">
+                    <img src="assets/images/compositions/tugutuye_aba_bageni-image.png" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/compositions/nyirubutagatifu-image.png" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                    <img src="assets/images/compositions/komeza_abana_bawe-image.png" alt="" class="col-9 col-sm-7 col-lg-5 col-xl-4 rad-10 ratio-1-1">
+                </div>
+                <p class="p-3 p-md-5 fs-4 position-relative bg-bodi inx-1 shadow" style="border-radius: 0 0 2rem 2rem;">
+                    Unleash your creativity and express yourself through the art of songwriting. With personalized guidance and support, I'll help you craft melodies and lyrics that resonate with your unique voice, turning your musical ideas into captivating compositions.
+                </p>
+            </div>
+            <div class="position-relative overflow-hidden fancy-bottom-border" style="translate: 0 -3rem;">
+                <img src="assets/images/compositions/nyirubutagatifu-image.png" alt="" class="position-relative h-100vh object-fit-cover" style="object-position: center 0;">
+                <div class="position-absolute w-100vw h-100vh pt-5" style=" background-image:linear-gradient(90deg, var(--secondaryClr3), var(--secondaryClr1), var(--secondaryClr)); top: 0;">
+                    <p class="col-md-6 ms-auto text-light fw-bold p-4 fs-3">
+                        Reading musical notes (solfeggio) and writing compositions can be both fascinating and overwhelming for some musicians. Whether you want to learn or need help with writing the notes, I am here to offer my best support and services.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="mb-0 section-breaker" style="translate: 0 4.5rem">
+                <div class="contact-info container">
+                    <h3 class="text-center display-3 w-fit mx-auto item-primaryClr text-primaryClr small-title">Get in touch</h3>
+                    <p class="fs-3 mt-5 text-center">
+                        If you'd like to connect, please feel free to reach out
+                    </p>
+                    <div class="d-md-flex">
+                        <div class="col-md-4 flex-center">
+                            <span class="fa fa-at display-1 p-5 my-3 rad-50 shadow"></span>
+                        </div>
+                        <div class="p-3 p-lg-5">
+                            <ul class="list-style-bell">
+                                <li class="py-2">
+                                    <strong class="me-3">Phone:</strong> +(250) 788 429 419
+                                </li>
+                                <li class="py-2">
+                                    <strong class="me-3">Email:</strong> <a href="mailto:eliazarndayisabye@gmail.com" target="_blank">eliazarndayisabye@gmail.com</a>
+                                </li>
+                                <li class="py-2">
+                                    <strong class="me-3">Address:</strong> Kigali - Kicukiro - Rebero
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <div class="footer-top w-100 h-10vh bg-secondaryClr"></div>
+    <footer>
+        <button class="fa fa-angle-up p-3 toTop border" style="border-color: var(--white4) !important"></button>
+        <div class="d-lg-flex py-5 justify-content-around flex-row-reverse container-lg">
+            <div class="align-self-center ">
+                <h6 class="fs-4 text-center">Follow me</h6>
+                <div class="d-flex flex-wrap justify-content-center social-media-icons">
+                    <a href="https://www.youtube.com/@ririmbamediaeliazar" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My instagram"><span class="fab fa-youtube"></span></a>
+                    <a href="https://twitter.com/Eliazarmusicien" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My Twitter"><span class="fab fa-x-twitter"></span></a>
+                    <a href="https://www.facebook.com/eliazar.ndayisabye" class="btn btn-lg pill mx-2 my-2 bg-primaryClr text-light bounceClick" target="_blank" title="My Facebook"><span class="fab fa-facebook"></span></a>
+                </div>
+            </div>
+            <nav class="flex-grow-1 p-4">
+                <ul class="list-unstyled">
+                    <li class="py-2"><a href="index.html">Home</a></li>
+                    <li class="py-2"><a href="music.php">Music</a></li>
+                    <li class="py-2"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="d-sm-flex flex-wrap">
+                <strong class="d-block col-sm-6 py-3 align-self-center p-3 border-end" style="white-space: nowrap;">©️ <span class="copyright-year">2024</span> Eliazar N.</strong>
+                <strong class="d-block col-sm-6 py-3 align-self-center p-3" style="white-space: nowrap;"><span class="fa fa-map-marker-alt me-3"></span> Kigali - Rwanda</span></strong>
+            </div>
+        </div>
+    <div class="pb-3 text-center text-muted small powered-by">
+            <span class="fa fa-code me-1"></span> Powered by <a href="https://hirwa9.github.io" target="_blank" class=" text-muted"><strong>Hirwa</strong></a>
+        </div>
+    </footer>
+    <style>
+        .images-showcase {
+            display: flex;
+            gap: .8rem;
+            justify-content: start;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        .images-showcase::-webkit-scrollbar {
+            height: 4px;
+        }
+        .images-showcase::-webkit-scrollbar-button {
+            display: none;
+        }
+        .images-showcase > img {
+            object-fit: cover;
+            height: fit-content;
+        }
+        .services-showcase .images-showcase > img {
+            animation: zoomInFront 8s 1;
+            animation: slideInLeft 1.5s 1;
+            transition: .3s;
+        }
+        /* Fancy border */
+        .fancy-bottom-border {
+            --mask: radial-gradient(8px at bottom,#0000 97%,#000) 50% / 14.8px 100%;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+          }
+        </style>
+    <script src="myScripts.js"></script>
+</body>
+</html>
