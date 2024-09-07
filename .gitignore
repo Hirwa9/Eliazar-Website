@@ -1,0 +1,45 @@
+# Ignore generated asset files (if applicable)
+assets/
+
+# Ignore offline files
+bootstrap5/
+Certificates/
+fontawesome6-2-0/
+jq/
+
+# Sitemaps
+sitemap.xml
+
+# Ignore environment and sensitive files
+.env
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore npm dependencies (if applicable)
+node_modules/
+
+# Ignore database exports
+DB exports/
+
+# Ignore Git and other version control system files
+.git/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore other temporary or build artifacts
+*.lock
+*.cache
+*.bak
+*.swp
+
