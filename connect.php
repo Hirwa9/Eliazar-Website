@@ -5,11 +5,6 @@ $username = "root";
 $password = "";
 $database = "eliazar";
 
-// $servername = "localhost";
-// $username = "eliazarn_elin";
-// $password = "Vr2eymrEsJXG6Fbaf4GV";
-// $database = "eliazarn_eliazar";
-
 try {
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
