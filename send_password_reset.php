@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <p>You requested to reset your password. Please click the button below to reset your password:</p>
 
                 <!-- Live -->
-                <!-- <a href="https://eliazarndayisabye.c1.is/reset_password.php?token={$token}" class="button">Reset Password</a> -->
+                <!-- <a href="https://eliazarndayisabye.rf.gd/reset_password.php?token={$token}" class="button">Reset Password</a> -->
                 
                 <!-- Local -->
                 <a href="http://localhost/eliazar/reset_password.php?token={$token}" class="button">Reset Password</a>
